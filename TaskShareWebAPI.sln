@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskShare.API", "TaskShare.API\TaskShare.API.csproj", "{205DC630-B630-4683-8A2C-42179D08D3D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Presentation", "01-Presentation", "{537AECF8-76D6-492E-B8AF-9A03D0DF8529}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Services", "02-Services", "{59B193B7-A8CA-4208-8699-91122AB71AD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Persistance", "03-Persistance", "{6E2C0A8C-872F-4843-9E69-8B715021B0CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskShare.Services", "TaskShare.Services\TaskShare.Services.csproj", "{1563C906-0CC9-41E2-86DA-ACC7A303746B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskShare.Entities", "TaskShare.Entities\TaskShare.Entities.csproj", "{9D626C00-197A-49DA-AD39-C172933A55F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskShare.EntityFramework", "TaskShare.EntityFramework\TaskShare.EntityFramework.csproj", "{DDEFDA7B-25B7-489C-9D2D-790B25E0B115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{205DC630-B630-4683-8A2C-42179D08D3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205DC630-B630-4683-8A2C-42179D08D3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205DC630-B630-4683-8A2C-42179D08D3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205DC630-B630-4683-8A2C-42179D08D3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1563C906-0CC9-41E2-86DA-ACC7A303746B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1563C906-0CC9-41E2-86DA-ACC7A303746B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1563C906-0CC9-41E2-86DA-ACC7A303746B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1563C906-0CC9-41E2-86DA-ACC7A303746B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D626C00-197A-49DA-AD39-C172933A55F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D626C00-197A-49DA-AD39-C172933A55F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D626C00-197A-49DA-AD39-C172933A55F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D626C00-197A-49DA-AD39-C172933A55F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEFDA7B-25B7-489C-9D2D-790B25E0B115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEFDA7B-25B7-489C-9D2D-790B25E0B115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEFDA7B-25B7-489C-9D2D-790B25E0B115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEFDA7B-25B7-489C-9D2D-790B25E0B115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{205DC630-B630-4683-8A2C-42179D08D3D2} = {537AECF8-76D6-492E-B8AF-9A03D0DF8529}
+		{1563C906-0CC9-41E2-86DA-ACC7A303746B} = {59B193B7-A8CA-4208-8699-91122AB71AD9}
+		{9D626C00-197A-49DA-AD39-C172933A55F6} = {6E2C0A8C-872F-4843-9E69-8B715021B0CF}
+		{DDEFDA7B-25B7-489C-9D2D-790B25E0B115} = {6E2C0A8C-872F-4843-9E69-8B715021B0CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0505A53A-570D-4694-87E0-2474D5B21869}
+	EndGlobalSection
+EndGlobal
